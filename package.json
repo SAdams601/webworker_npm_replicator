@@ -1,0 +1,14 @@
+{
+  "name": "webworker_npm_replicator",
+  "version": "1.0.0",
+  "description": "",  
+  "scripts": {
+    "esbuild": "node esbuild.js"
+  },
+  "dependencies": {
+    "@stdlib/math-base-assert-is-even": "0.2.1",
+    "esbuild": "^0.20.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

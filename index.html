@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webworker issue with NPM</title>
+    <meta name="author" content="Stephen Adams">    
+    <link data-trunk rel="rust" href="Cargo.toml" data-bin="app" data-type="main" data-weak-refs />
+    <link data-trunk rel="rust" href="Cargo.toml" data-bin="worker" data-type="worker" data-bindgen-target="web" />
+    <script data-trunk src="./src/package.js" ></script>
+    <base data-trunk-public-url/>
+</head>
+<body class="m-0">
+</body>
+</html>
